@@ -1,0 +1,9 @@
+<input type="text" [value]="placeholder" 
+(input)="placeholder = $any($event.target).value">
+
+<!--Diretivas do Angular-->
+<input type="text" name="placepass" 
+[(ngModel)] = 'placepass'
+/>
+
+<p [style.color]="color">{{placepass}}</p>

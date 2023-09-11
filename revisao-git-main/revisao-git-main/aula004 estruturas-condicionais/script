@@ -1,0 +1,156 @@
+var jogador1 = 1;
+var jogador2 = 0;
+
+var placar;
+//if -->comparação
+if (jogador1 > 0) {
+    console.log("Jogador 1 marcou ponto!!");
+    //else senão faz outra coisa
+} else if (jogador2 > 0) {
+    console.log("else if");
+} else {
+    console.log("else")
+}
+
+//ninho de if aninhamento de ifs
+if (jogador1 != -1) {
+
+    if (jogador1 = -1) {
+        if (jogador1 > 0) {
+            console.log("Jogador 1 marcou ponto")
+        } else {
+            console.log("ninguem marcou ponto");
+
+
+        }
+    } else {
+        console.log("jogador inválido");
+    }
+
+}
+
+//if ternário [condição] ? [instrução 1] : [instrução2]
+
+//utilizar ? e : no if ternário
+
+jogador1 != -1 && jogador2 != -1 ? console.log("Os dois jogadores são válidos") : console.log("jogadores inválidos!")
+
+
+jogador1 > 0 ? console.log("Jogador 1 marcou ponto") : console.log("Jogador 1 não marcou ponto");
+
+// melhorando 
+
+if (jogador1 > 0 && jogador2 == 0) {
+    console.log("Jogador 1 Marcou ponto!")
+    placar = jogador1 > jogador2;
+} else if (jogador2 > 0 && jogador1 == 0) {
+    console.log("Jogador 2 marcou ponto!")
+    placar = jogador2 > jogador1;
+} else {
+    console.log("Ninguém marcou ponto!")
+}
+
+//switch case
+
+/* 
+switch(${expressão}){
+    case 1:
+        ${instrucao};
+        break;
+    
+    case 2: 
+        ${instrução};
+        break;
+
+
+}
+
+*/
+
+switch (placar) {
+    case placar: jogador1 > jogador2;
+        console.log("Jogador 1 ganhou");
+        break;
+
+    case placar: jogador2 > jogador1
+
+        console.log("Jogador 2 ganhou");
+        break;
+
+    default:
+        console.log("Ninguém ganhou!")
+}
+
+//Estruturas de repetição
+
+
+//for()
+
+//for/in
+
+let array1 = ['valor 1', 'valor 2']
+let object = {
+    nome:"José Américo",
+    idade:39
+}
+
+//array.lenth tamaho máximo do array
+for (let i = 0; i < array1.length; i++) {
+    console.log("Passo " + i)
+}
+
+
+//for in
+
+
+//com array
+for (let i in array1){
+    console.log(i);
+}
+
+//com object
+
+//percorre cada propriedade do objeto e imprime essas propriedades
+
+
+//não utiliza o let o javascript já compreende que trata-se de uma variável de estado
+//pega a propriedade 
+for(i in object){
+    console.log(i);
+}
+
+//forof
+//pega o valor da propriedade
+for (i of array1) {
+    console.log(i);
+}
+
+//for of com objetos --> não são iteraveis não funciona muito bem
+
+
+for(i of object.nome){
+    console.log(i);
+}
+
+//while --> enquanto houver a condição executa
+// a execução é feita antes da execução
+var a=0;
+
+while(a<10){
+    a++;
+    console.log(a);
+}
+
+//do while
+
+//executa a instrução até que a condição seja falsa
+
+do{
+    a++;
+  console.log(a)
+}while(a<=10)
+
+//funções e suas particularidades
+
+//O que são, como declarar e funções com parametros
+
