@@ -1,0 +1,32 @@
+<p [ngClass]="estilo">comp-atributos works!</p>
+<button (click)="trocar()">CHANGE</button>
+<h1 [ngStyle]="{ background: corFundo, color: corDaFonte }">CURSO ANGULAR</h1>
+
+<ng-content select="h2"></ng-content>
+
+<h1>Lista de Compras</h1>
+<p>Adicione um item</p>
+<input [(ngModel)]="item" type="text" />
+<!--[(ngModel)]="item" binding bi-direcional-->
+<button (click)="adicionarLista()">ADICIONAR</button>
+<p>{{ item }}</p>
+<ul>
+  <li *ngFor="let elemento of lista">{{ elemento }}</li>
+  <!--Elemento reativo utilizando o ngModel-->
+</ul>
+
+<hr />
+
+<ng-template [ngIf]="isEnableBlock">
+  <a href="#">Finalizar Compra</a>
+</ng-template>
+<br>
+<ng-template [ngIf]="isEnableBlock">
+  <a href="#">Adicionar ao Carrinho</a>
+</ng-template>
+
+<hr />
+
+
+
+<ng-content select="p"></ng-content>
