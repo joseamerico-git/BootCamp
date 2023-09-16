@@ -1,0 +1,20 @@
+<div>
+    <ul> <!-- // A rota ativa carrega o estilo utilizando classe-->
+        <li><a [routerLink]="['/']" [routerLinkActive]="['activated']" [routerLinkActiveOptions]="{exact:true}">
+
+                HOME
+            </a>
+        </li>
+        <!--
+                    Podemos passar várias classes 
+                      [routerLinkActive]="['activated', 'classe2', classe3]">
+
+
+                -->
+        <li><a [routerLink]="['/portifolio']" [routerLinkActive]="['activated']"
+                [routerLinkActiveOptions]="{exact:true}"> <!--Adiciona estilo dependendo da rota que está ativa-->
+                PORTIFOLIO
+            </a>
+        </li>
+    </ul>
+</div>
