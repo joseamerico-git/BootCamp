@@ -1,5 +1,5 @@
 .card-label__container{
-    position: absolute;
+    position: absolute; /* Compoentne fica na frente dos outros*/
     bottom: 90px;
     right: 0;
 }
@@ -7,7 +7,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #0d0d0d7e;
+    background-color: #0d0d0dab;
     color: white;
     font-size: 12px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;

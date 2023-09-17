@@ -37,8 +37,8 @@
 .menu-bar__item ul > li{
   
     padding: 5px;
-    margin-right: 15px;
-
+    margin-right: 150px;
+  
 }
 .menu-bar__item ul > li > a {
     text-decoration: none; /*Essa propriedade retira o sublinhado/decorações de textos */

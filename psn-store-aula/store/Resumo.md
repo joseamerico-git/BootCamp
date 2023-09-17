@@ -62,9 +62,21 @@ ng g c components/card/card-label
 ng g c components/card/card-pricing
 
 
+# Em CSS position:relative fica atraz e position:absolute na frente.
 
 
+# Como passar propriedades dos elementos pais para filhos
 
+Repassando de informações entre propriedades
+
+# Dicas de refatoração.
+
+Criar componentes grandes e depois refatorar para melhorar o código, transformando-os em outros componentes.
+
+Supondo que gostariamos de transformar a parte do menu em outro componente
+criariamos ourtro componente e levariamos o código 
+
+ng g c components/menu-bar/menu-bar-item 
 
 
 
