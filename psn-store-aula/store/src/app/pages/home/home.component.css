@@ -6,7 +6,7 @@
     justify-content: space-around; /* Espaços em volta */
     align-items: baseline; /* Alinhamento pela base */
     flex-wrap:wrap; /* Toda vez que o elemnto se limite ele vai para baixo */
-    border:1px solid rgb(247, 0, 255);
+    border:1px solid rgba(0, 255, 234, 0.705);
     color: white;
 
 }

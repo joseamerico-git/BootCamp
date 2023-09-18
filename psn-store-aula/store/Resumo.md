@@ -78,6 +78,8 @@ criariamos ourtro componente e levariamos o código
 
 ng g c components/menu-bar/menu-bar-item 
 
+[Material](https://apple-cheek-322.notion.site/Material-Aula-3086f655edb343f5929014c42e59e37d)
+
 
 
 
